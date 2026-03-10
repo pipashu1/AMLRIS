@@ -31,6 +31,8 @@ This repository provides:
 - PyTorch 1.11
 - Other dependencies listed in `requirements.txt`
 
+Requirements can also refer to the CARIS repository: https://github.com/lsa1997/CARIS
+
 Install dependencies with:
 
 ```bash
@@ -260,3 +262,21 @@ bash scripts/test_refcoco.sh
 - Models trained on RefCOCOm can be transferred directly to RefCOCO / RefCOCO+ / RefCOCOg (umd) evaluation without extra fine-tuning
 
 ---
+
+## References
+
+This repo is mainly built based on **CARIS** and **DETRIS**. Thanks for their great work!
+
+
+## Citation
+
+If you find our code useful, please consider citing:
+
+```bibtex
+@inproceedings{chen2026amlris,
+  title={AMLRIS: Alignment-aware Masked Learning for Referring Image Segmentation},
+  author={Chen, T. and Yang, S. and Yang, Y. and others},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026}
+}
+```
